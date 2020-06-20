@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Node.js for Linux
+Bundle-SymbolicName: org.eclipse.wildwebdeveloper.embedder.node.linux
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Eclipse Wild Web Developer
+Fragment-Host: org.eclipse.wildwebdeveloper.embedder.node;bundle-version="0.1.0"
+Automatic-Module-Name: org.eclipse.wildwebdeveloper.embedder.node.linux
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

@@ -20,9 +20,11 @@
 
 	<modules>
 		<module>target-platform</module>
+		<module>org.eclipse.wildwebdeveloper.embedder.node</module>
 		<module>org.eclipse.wildwebdeveloper</module>
 		<module>org.eclipse.wildwebdeveloper.xml</module>
 		<module>org.eclipse.wildwebdeveloper.tests</module>
+		<module>org.eclipse.wildwebdeveloper.embedder.node.feature</module>
 		<module>org.eclipse.wildwebdeveloper.xml.feature</module>
 		<module>org.eclipse.wildwebdeveloper.feature</module>
 		<module>repository</module>
