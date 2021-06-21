@@ -12,7 +12,7 @@
 		<maven>3.6.3</maven>
 	</prerequisites>
 	<properties>
-		<tycho-version>2.2.0</tycho-version>
+		<tycho-version>2.3.0</tycho-version>
 		<tycho.scmUrl>scm:git:https://github.com/eclipse/wildwebdeveloper.git</tycho.scmUrl>
 		<jgit.dirtyWorkingTree>error</jgit.dirtyWorkingTree>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,6 +24,7 @@
 		<module>org.eclipse.wildwebdeveloper.embedder.node.linux.x86_64</module>
 		<module>org.eclipse.wildwebdeveloper.embedder.node.linux.aarch64</module>
 		<module>org.eclipse.wildwebdeveloper.embedder.node.macos.x86_64</module>
+		<module>org.eclipse.wildwebdeveloper.embedder.node.macos.aarch64</module>
 		<module>org.eclipse.wildwebdeveloper.embedder.node.win32.x86_64</module>
 		<module>org.eclipse.wildwebdeveloper.embedder.node</module>
 		<module>org.eclipse.wildwebdeveloper</module>
@@ -195,6 +196,11 @@
 								<os>macosx</os>
 								<ws>cocoa</ws>
 								<arch>x86_64</arch>
+							</environment>
+							<environment>
+								<os>macosx</os>
+								<ws>cocoa</ws>
+								<arch>aarch64</arch>
 							</environment>
 						</environments>
 					</configuration>
